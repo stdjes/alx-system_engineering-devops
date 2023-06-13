@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "bin" /etec/passwd | wc -l
+grep -c "bin" /etec/passwd
