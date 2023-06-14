@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -execdir echo {} \; | sed 's|.*/||'; find . -type d -empty -execdir echo {} \; | sed 's|.*/||'
+find . -empty | rev | cut -d '/' -f 1 | rev 
